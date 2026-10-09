@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "tpamenu",
+  "version": "${version}",
+  "name": "TPA Menu",
+  "description": "Menu pod klawiszem X z graczami, którzy teleportują się do Ciebie. Kliknięcie wysyła /stats nick.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.tpamenu.TpaMenuClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
